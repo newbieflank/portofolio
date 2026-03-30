@@ -55,13 +55,13 @@ function FadeIn({ children, delay = 0, style = {} }) {
 const projects = [
   {
     num: "01", name: "Library Management Desktop App",
-    year: "2024",
+    year: "2023",
     role: "Backend Developer",
     icon: "📚",
     tags: ["Java", "NetBeans", "MySQL", "RFID"],
     desc: "Desktop-based library system for managing members, staff, and book data with RFID authentication.",
     live: "",
-    github: "",
+    github: "https://github.com/newbieflank/perpusmu.git",
     longDesc: "A desktop application developed using Java in NetBeans to manage library operations, including member registration, staff management, and book inventory. The system integrates RFID card authentication to enhance security and streamline user access, enabling faster and more efficient data processing within the library environment.",
     highlights: [
       "Developed CRUD system for members, staff, and book management",
@@ -80,7 +80,7 @@ const projects = [
     tags: ["PHP Native", "MySQL", "REST API", "Android"],
     desc: "Backend system for managing boarding house data, search functionality, and mobile app integration.",
     live: "",
-    github: "",
+    github: "https://github.com/newbieflank/web_rekost.git",
     longDesc: "A web-based backend system developed using native PHP to manage users, boarding house owners, and property listings. The system was designed with a structured database and business logic to support efficient search and data management. It also provides API endpoints integrated with an Android mobile application, allowing users to browse, search, and view detailed boarding house information seamlessly.",
     highlights: [
       "Designed and implemented database schema for users, owners, and boarding house data",
@@ -99,7 +99,7 @@ const projects = [
     tags: ["Laravel", "MySQL", "REST API", "Flutter"],
     desc: "Backend system for managing maternal health data, schedules, and mobile integration for Posyandu services.",
     live: "",
-    github: "",
+    github: "https://github.com/Mafirrr/Website_Posyandu.git",
     longDesc: "A backend system built with Laravel to manage users, midwives, health cadres, educational content, and Posyandu activity schedules. The system provides RESTful APIs integrated with a Flutter mobile application, enabling users to access health check data, schedules, and maternal health information efficiently. The architecture focuses on scalability, data integrity, and seamless mobile synchronization.",
     highlights: [
       "Developed RESTful APIs for mobile app integration",
@@ -118,7 +118,7 @@ const projects = [
     tags: ["Fuzzy Logic", "Flutter", "IoT", "Embedded System"],
     desc: "Early flood detection system using fuzzy logic with real-time monitoring and mobile alerts.",
     live: "",
-    github: "",
+    github: "https://github.com/newbieflank/FloodSense.git",
     longDesc: "An early warning system designed to detect flood risks using the Mamdani Fuzzy Logic method based on water level and flow velocity parameters. The system integrates an embedded prototype with sensors to simulate real-world monitoring, while a Flutter mobile application displays real-time water conditions and sends early warning notifications to users.",
     highlights: [
       "Implemented Mamdani Fuzzy Logic for flood risk classification",
@@ -364,7 +364,7 @@ function About() {
             }}
           >
             <img
-              src="/portofolio/img.jpg"
+              src="/portofolio/image.jpg"
               alt="Septian"
               style={{
                 width: "100%",
