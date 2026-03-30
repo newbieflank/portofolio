@@ -34,7 +34,7 @@ jobs:
       - name: Upload
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build   # atau ./dist kalau Vite
+          path: ./dist   # atau ./dist kalau Vite
 
   deploy:
     needs: build
