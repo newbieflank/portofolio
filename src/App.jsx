@@ -364,7 +364,7 @@ function About() {
             }}
           >
             <img
-              src="/portofolio/image.jpg"
+              src="/portofolio/image.jpeg"
               alt="Septian"
               style={{
                 width: "100%",
